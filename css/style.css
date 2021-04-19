@@ -13,12 +13,12 @@ h1{
 }
 
 p , li , th , td{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 div.sub-section{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 /* header pagina */
@@ -47,6 +47,10 @@ main{
 
 .titolo-principale{
     margin-top: 15px;
+}
+
+div.title{
+    margin-top:10px;
 }
 
 strong .blu{
@@ -100,6 +104,7 @@ table{
  td, th, table{
     border-style:none;
     border-spacing:0;
+    text-align: left;
 
 }
 
