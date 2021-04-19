@@ -1,7 +1,14 @@
 /* common */
 * {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
+
+h1{
+    font-size: 30px;
+}
+
+
 
 /* header pagina */
 header{
@@ -18,3 +25,24 @@ header{
     width: 200px;
 }
 
+/* main */
+
+main{
+    padding-left: 10px;
+}
+
+/* prima sezione */
+
+.titolo-principale{
+    margin-top: 15px;
+}
+
+strong .blu{
+    color: #20a9e5;
+}
+
+div .data{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+}
