@@ -1,0 +1,149 @@
+/* common */
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+    color:#868686;
+    font-size:30px ;
+}
+
+.marked{
+    background-color: yellow;
+}
+
+p , li , th , td{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div.sub-section{
+    margin-top: 40px;
+}
+
+/* header pagina */
+header{
+    background-color: #4ea0ff;
+    background-image: url("../../img/pattern.png");
+    height: 120px;
+    width: 100%;
+    background-position: 0% 20%;
+}
+
+.logo{
+    margin-top: 60px;
+    margin-left: 20%;
+    width: 200px;
+}
+
+/* main */
+
+main{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* prima sezione */
+
+.titolo-principale{
+    margin-top: 15px;
+}
+
+div.title{
+    margin-top:10px;
+}
+
+strong .blu{
+    color: #20a9e5;
+}
+
+div .data{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+/* sezione foto */
+
+section.foto{
+    padding-top: 30px;
+    padding-left: 0;
+    height: 720px;
+}
+
+div.copertina{
+    width: 48%;
+    height: 650px;
+    background-size: cover;
+    display: inline-block;
+    
+}
+
+.tim1{
+    background-image: url('../../img/tim-1.jpg');
+    margin-right: 3%;
+    background-position: center;
+}
+
+.tim2{
+    background-image: url('../../img/tim-2.jpg');
+    background-position: right;
+    
+}
+
+div.info{
+    font-size:15px;
+    font-weight: 500;
+}
+
+/* sezione articolo */
+
+/* tabella */
+
+table{
+    width: 100%;
+}
+
+ td, th, table{
+    border-style:none;
+    border-spacing:0;
+    text-align: left;
+}
+
+thead{
+    background-color: #20a9e5;
+}
+
+th.colonna-3{
+    width: 50%;
+}
+
+.dispari{
+    background-color: #b1e5f2;
+}
+
+/* sezione "potrebbe interessarti" */
+
+div.anteprima{
+    width: 100%;
+    height: 208px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    font-size: 25px;
+    color:#ffffff;
+    padding-top:10px;
+    padding-left: 10px;
+}
+
+.video-1{
+    background-image: url("../../img/monitor.jpg");
+}
+
+.video-2{
+    background-image: url("../../img/graph.jpg");
+}
