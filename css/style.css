@@ -5,7 +5,7 @@
 }
 
 h1{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 
@@ -29,6 +29,7 @@ header{
 
 main{
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* prima sezione */
@@ -45,4 +46,35 @@ div .data{
     font-size: 10px;
     font-weight: 400;
     margin-top: 5px;
+}
+
+/* sezione foto */
+
+section.foto{
+    padding-top: 30px;
+    padding-left: 0;
+    height: 1000px;
+}
+
+div.copertina{
+    width: 48%;
+    height: 650px;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+}
+
+
+.tim1{
+    background-image: url('../img/tim-1.jpg');
+    margin-right: 3%;
+}
+
+.tim2{
+    background-image: url('../img/tim-2.jpg');
+}
+
+div.info{
+    font-size:15px;
+    font-weight: 500;
 }
