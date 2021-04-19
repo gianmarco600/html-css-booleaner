@@ -8,7 +8,14 @@ h1{
     font-size: 40px;
 }
 
+.marked{
+    background-color: yellow;
+}
 
+p , li{
+    font-size: 18px;
+    font-weight: 500;
+}
 
 /* header pagina */
 header{
@@ -53,7 +60,7 @@ div .data{
 section.foto{
     padding-top: 30px;
     padding-left: 0;
-    height: 1000px;
+    height: 720px;
 }
 
 div.copertina{
@@ -78,3 +85,10 @@ div.info{
     font-size:15px;
     font-weight: 500;
 }
+
+/* sezione articolo */
+
+div.sub-section{
+    margin-top: 20px;
+}
+
