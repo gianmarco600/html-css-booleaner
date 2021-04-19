@@ -12,9 +12,13 @@ h1{
     background-color: yellow;
 }
 
-p , li{
+p , li , th , td{
     font-size: 18px;
     font-weight: 500;
+}
+
+div.sub-section{
+    margin-top: 20px;
 }
 
 /* header pagina */
@@ -71,7 +75,6 @@ div.copertina{
     background-position: center;
 }
 
-
 .tim1{
     background-image: url('../img/tim-1.jpg');
     margin-right: 3%;
@@ -88,7 +91,26 @@ div.info{
 
 /* sezione articolo */
 
-div.sub-section{
-    margin-top: 20px;
+/* tabella */
+
+table{
+    width: 100%;
 }
 
+ td, th, table{
+    border-style:none;
+    border-spacing:0;
+
+}
+
+thead{
+    background-color: #20a9e5;
+}
+
+th.colonna-3{
+    width: 50%;
+}
+
+.dispari{
+    background-color: #b1e5f2;
+}
